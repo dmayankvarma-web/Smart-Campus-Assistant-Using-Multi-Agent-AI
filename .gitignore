@@ -1,0 +1,34 @@
+# Node dependencies
+**/node_modules/
+**/.next/
+**/out/
+**/.nuxt/
+**/dist/
+
+# Python virtual environment and cache
+**/venv/
+**/.venv/
+**/env/
+**/.env/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.pytest_cache/
+
+# Databases and local state
+**/chroma_db/
+**/conversations_memory/
+**/*.db
+**/*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE and local configuration
+.vscode/
+.idea/
+*.local
+.env
+.env.*.local
